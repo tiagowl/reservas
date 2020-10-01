@@ -37,7 +37,7 @@ export const Options = styled.div`
         font-family:"Archivo Narrow";
         font-size: 24px;
         margin-right: 100px;
-        witdh: 100px;
+        witdh: 200px;
     }
 
     img{
