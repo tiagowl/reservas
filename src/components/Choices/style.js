@@ -19,39 +19,50 @@ export const Container = styled.div`
 
 export const Options = styled.div`
     display: flex;
-    align-items: center;
     background: white;
-    width: 1072px;
+    justify-content: space-between;
+    align-self: center;
+    width: 80%;
     height: 90px;
     border-radius: 30px;
     margin-top: 10px;
-    padding-left: 40px;
 
     ul{
         display: flex;
+        align-items: center;
         list-style: none;
+        margin-left: 30px;
     }
 
     li{
         color: #7C7878;
         font-family:"Archivo Narrow";
-        font-size: 24px;
-        margin-right: 100px;
-        witdh: 200px;
+        font-size: 1.2rem;
+        margin-right: 20%;
     }
 
     img{
-        width: 47px;
-        height: 45px;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
     }
 
     button{
         background: #77D0A5;
-        width: 200px;
+        width: 220px;
         height: 90px;
         border-radius: 30px;
         font-family:"Archivo Narrow";
         color: white;
-        font-size: 24px;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    #dropdown{
+        color: #7C7878;
+        font-family:"Archivo Narrow";
+        font-size: 1.2rem;
+        margin-right: 100px;
+        background: white;
     }
 `;

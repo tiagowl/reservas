@@ -25,7 +25,7 @@ export const Icon = styled.ul`
     li{
         font-family:"Righteous";
         color: white;
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 `;
 
@@ -40,7 +40,7 @@ export const Options = styled.ul`
     li{
         font-family:"Archivo Narrow";
         color: white;
-        font-size: 21px;
+        font-size: 1.3rem;
         margin-right: 80px;
         font-weight: 400;
         font-style: normal;

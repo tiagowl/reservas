@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Main from './pages/Main';
 import GlobalStyles from './styles/GlobalStyles';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Switch>
           <Route path="/" component={Main} />
         </Switch>
+      <Footer/>
       <GlobalStyles/>
     </BrowserRouter>
   );
